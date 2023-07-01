@@ -1,0 +1,526 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+header{
+
+position: absolute;
+top: 30px;
+left: 11px;
+right: 11px;
+
+}
+header h2{
+font-size: 30px;
+font-weight: 700;
+line-height: 2;
+}
+header p{
+
+font-style: italic;
+font-size: 16px;
+font-weight: 500;
+line-height: 17.07px;
+margin-left: 30px;
+color: #4f4f4f;
+
+
+}
+img{
+
+width: 100%;
+position: absolute;
+border-radius: 12px;
+top: 170px;
+}
+
+
+.paragraph1{
+
+display: flex;
+flex-direction: column;
+}
+.paragraph1 p:first-child{
+
+font-size: 13px;
+font-weight: 400;
+opacity: 0.5;
+}
+.paragraph1 p:nth-child(2){
+
+    font-size: 13px;
+    font-weight: 400;
+    color: orangered;
+}
+.servings{
+
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+gap:10px;
+position: absolute;
+top: 390px;
+left: 11px;
+}
+.servings svg{
+color: orangered;
+}
+.prep-time{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+gap: 10px;
+text-transform: uppercase;
+white-space: nowrap;
+
+}
+
+.time1{
+
+display: flex;
+flex-direction: row;
+position: absolute;
+ top: 450px;
+ left: 11px; 
+gap: 30px;
+align-items: center;
+}
+.cook-time{
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+}
+.total-time{
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+}
+.ingredients{
+
+position: absolute;
+top: 516px;
+left: 11px;
+}
+.ingredients h2{
+
+    line-height: 2;
+}
+.ingredients h5{
+    line-height: 2;
+}
+.recette{
+
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+position: relative; 
+top: 20px;
+
+
+}
+.etape{
+display: flex;
+flex-direction: row;
+gap: 15px;
+align-items: center;
+}
+.etape img{
+width: 25px;
+position: relative;
+top: 0px;
+
+}
+
+span{
+font-weight: 800;
+}
+.line-break{
+
+    font-weight: 300;
+    
+    }
+    .cheesecake{
+    
+    position: absolute;
+    top: 756px;
+left: 11px;
+    
+    }
+    .instructions{
+position: absolute;
+top: 1250px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+left: 11px;
+
+    }
+    .boxes{
+
+width: 45px;
+height: 30px;
+ 
+background-color: #f2994a;
+border-radius:5px ;
+position: relative;
+    }
+    .boxes p{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+
+    }
+.etape2{
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+    
+
+}
+.etape2 p:nth-child(2){
+
+    font-size: 21px;
+}
+
+
+
+
+.boxes2{
+
+    width: 25px;
+    height: 30px;
+     
+    background-color: #f2994a;
+    border-radius:5px ;
+    position: relative;
+
+}
+.boxes2 p{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+
+@media only screen and (min-width:768px) {
+
+
+    header{
+
+        position: absolute;
+        top: 30px;
+        left:50px;
+        right: 50px;
+}
+header h2{
+
+font-size: 40px;
+font-weight: 700;
+line-height: 2;
+}
+header p{
+
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 17.07px;
+    margin-left: 30px;
+    color: #4f4f4f;
+
+}
+
+img{
+
+    width: 100%;
+    position: absolute;
+    border-radius: 12px;
+    top: 160px;
+    
+    }
+    .time{
+
+position: absolute;
+top: 150px;
+left: 40px;
+white-space: nowrap;
+
+    }
+    .time1{
+
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+         top: 450px;
+         left: 11px; 
+       gap: 140px;
+        align-items: center;
+        font-size: 40px;
+        }
+        .ingredients{
+
+            position: absolute;
+            top: 650px;
+            left: 40px;
+            
+            }
+            .cheesecake{
+    
+                position: absolute;
+                top: 890px;
+            left: 40px;
+                
+                }
+                .instructions{
+                    position: absolute;
+                    top: 1282px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    left: 40px;
+                    
+                        }
+                        .instructions h2{
+                            line-height: 2;
+                        }
+                        .boxes{
+
+                            width: 25px;
+                            height: 30px;
+                            background-color: #f2994a;
+                            border-radius:5px ;
+                            position: relative;
+                        }
+
+}
+
+
+
+@media only screen and (min-width:1440px){
+
+
+
+header{
+
+
+position: absolute;
+left: 236px;
+right: 236px;
+}
+header h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 2;
+    margin-left: -5px;
+
+}
+header p{
+
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    margin-left: 30px;
+    color: #4f4f4f;
+
+}
+img{
+
+    position: absolute;
+    border-radius: 12px;
+    top: 220px;
+     width:100%;
+    
+}
+.box{
+
+width: 216px;
+min-height: 350px;
+box-shadow: 5px 5px 5px 5px lightgray;
+position: relative;
+top: 620px;
+left: 948px;
+border-radius: 12px;
+}
+.time1{
+
+
+display: flex;
+flex-direction: column;
+gap: 55px;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 90px;
+left: 50%;
+transform: translate(-50%);
+
+}
+.servings{
+
+position: absolute;
+top: 30px;
+left: 50%;
+transform: translate(-50%);
+font-size: 25px;
+font-weight: 500;
+
+}
+.prep-time,.cook-time,.total-time{
+font-size: 45px;
+font-weight: 700;
+}
+.ingredients{
+
+position: absolute;
+top: 750px;
+left: 260px;
+}
+.ingredients h2{
+font-size: 40px;
+
+}
+.ingredients h5{
+    font-size: 25px;
+
+}
+.etape p{
+
+font-size: 19px;
+
+}
+.line-break::before{
+
+    content: "\A";
+    white-space: pre;
+}
+.cheesecake{
+    
+    position: absolute;
+    top: 1050px;
+    left: 260px;
+    }
+    .cheesecake h2{
+        line-height: 3;
+    }
+
+    .instructions{
+        position: absolute;
+        top: 1520px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        left: 260px;
+            }
+            .instructions h2{
+font-size: 40px;
+
+            }
+            .boxes2 p{
+                font-size: 24px;
+            }
+            .boxes p{
+                font-size: 24px;
+            }
+            .etape2 p:nth-child(2){
+                font-size: 25px;
+            }
+
+}
+@media only screen and (min-width:2550px){
+
+    header{
+    position: absolute;
+    left: 236px;
+    right: 236px;
+    }
+    header h2{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 2;
+        margin-left: -5px;
+    
+    }
+    header p{
+    
+        font-style: italic;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 1;
+        margin-left: 30px;
+        color: #4f4f4f;
+    
+    }
+    .box{
+
+        width: 300px;
+        min-height: 450px;
+        box-shadow: 5px 5px 5px 5px lightgray;
+        position: relative;
+        top: 1200px;
+        left: 1980px;
+        border-radius: 12px;
+        }
+        .servings{
+
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translate(-50%);
+            font-size: 45px;
+            font-weight: 500;
+            
+            }
+            .prep-time,.cook-time,.total-time{
+            font-size: 65px;
+            font-weight: 700;
+            }
+            .ingredients{
+
+                position: absolute;
+                top: 1300px;
+                left: 660px;
+                }
+              
+                .cheesecake{
+    
+                    position: absolute;
+                    top: 1650px;
+                    left: 660px;
+                    }
+                    .instructions{
+                        position: absolute;
+                        top: 2150px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        left: 660px;
+                            }
+            
+
+
+}
